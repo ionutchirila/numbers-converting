@@ -10,7 +10,7 @@ namespace FirstProject
             bool notZero = true;
             do
             {
-                if (num < 0 || num >= 4000)
+                if (num < 0 || num > 3999)
                 {
                     Console.WriteLine("Error");
                     notZero = false;
